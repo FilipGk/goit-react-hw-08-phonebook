@@ -1,0 +1,32 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-size: 20px;
+}
+.input {
+  background-color: none;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin: 5px 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 7px;
+  border: none;
+}
+.btn:hover {
+  background-color: #ffc26f;
+  color: #c38154;
+  border-color: #0a0131ab;
+  cursor: pointer;
+}
+.contactform {
+  width: 260px;
+  padding: 20px;
+  display: block;
+  border-bottom: 3px double black;
+}
